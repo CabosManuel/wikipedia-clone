@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  --drakblue: #121f3d;
+  --white: #eff3f8;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  
+  background-color: var(--drakblue);
+  color: var(--white);
+}
+
+.logo {
+  font-family: 'Crimson Text', serif;
+
+  width: fit-content;
+  margin: 4rem auto 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-size: 3.8rem;
+
+  display: flex;
+  align-items: baseline;
+}
+.ikilear {
+  font-size: 2.6rem;
+}
+
+.subtitle {
+  font-size: 1.6rem;
+  width: fit-content;
+  padding-left: 1rem;
+}
+
+.green-sphere {
+  width: 20rem;
+}
+
+.green-sphere img {
+  width: 100%;
+}

@@ -218,19 +218,26 @@ main .line {
   margin: 0 2rem;
 }
 
+/* ****************************** */
 /* *********** FOOTER *********** */
+/* ****************************** */
 footer {
   color: var(--gray);
   font-size: 1.4rem;
   
+  padding: 4rem 0 0 0;
+
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
-/* DESCRIPTION */
-.description {
-  width: 45vw;
+.desc-app { 
+  width: 33rem;
+}
 
+/* ********* DESCRIPTION ******** */
+.description {
   padding: 2rem;
 
   display: flex;
@@ -242,14 +249,12 @@ footer {
 }
 
 .description p {
-  margin: 0 2rem;
+  padding: 0 0 0 2rem;
 }
 
-/* DOWNLOAD APP */
+/* ******* DOWNLOAD APP ******* */
 .dowload-app {
-  width: 35vw;
-
-  margin: 2rem;
+  padding: 2rem;
 
   display: flex;
   justify-content: start;
@@ -269,7 +274,7 @@ footer {
 /* Texto */
 .text {
   width: auto;
-  padding: 0 2rem;
+  padding: 0 0 0 2rem;
 }
 .text span {
   font-weight: bold;
@@ -291,3 +296,60 @@ footer {
 }
 .ps { margin-left: -1rem; }
 .as { margin: -1.6rem 0 0 -1.7rem; }
+
+/* ********* OTHERS SCHOOLS ******** */
+.others-schools {
+  text-decoration: none;
+  width: 50vw;
+  height: fit-content;
+  padding: 2rem 0;
+
+  min-width: 60rem;
+
+  display: flex;
+  justify-content: right;
+  flex-wrap: wrap;
+}
+
+.other-school {
+  width: 30%;
+  height: 7rem;
+  margin: 0 1rem 1rem;
+  padding: 1rem;
+
+  min-width: 18rem;
+  text-decoration: none;
+
+  display: flex;
+  align-items: center;
+}
+
+.other-school:hover {
+  background-color: var(--lightblue);
+}
+
+.school-icon {
+  width: 4rem;
+  min-width: 4rem;
+}
+.school-icon img {
+  width: 100%;
+}
+
+.info {
+  width: auto;
+  padding: 0 1rem;
+
+  text-decoration: none;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.info span{
+  color: var(--gray);
+}
+
+.info span:first-child {
+  color: var(--skyblue);
+}

@@ -9,18 +9,20 @@ html {
 
 :root {
   --drakblue: #121f3d;
+  --lightblue: #24385b;
+  --skyblue: #0791e6;
   --white: #eff3f8;
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 1.6rem;
   
   background-color: var(--drakblue);
   color: var(--white);
 }
 
-.logo {
+.title-subtitle {
   font-family: 'Crimson Text', serif;
 
   width: fit-content;
@@ -47,10 +49,72 @@ body {
   padding-left: 1rem;
 }
 
-.green-sphere {
+.logo {
   width: 20rem;
+  margin: 10rem auto;
 }
 
-.green-sphere img {
+.logo img {
   width: 100%;
+}
+
+.schools {
+  list-style-type: none;
+  position: absolute;
+  right: 0;
+  left: 0;
+  
+  top: 14rem;
+  
+  width: 60rem;
+  margin: 0 auto;
+  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mini {
+  width: 14rem;
+  text-align: center;
+}
+
+.school a {
+  text-decoration: none;
+  color: var(--white);
+
+  padding: 1rem;
+  margin: 0.5rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Align schools around */
+.s1 { margin-left: 10rem; }
+.s3 { margin-left: 6rem; }
+.s5 { margin-left: 1rem; }
+.s7 { margin-left: 3rem; }
+.s9 { margin-left: 10rem; }
+
+.s2 { margin-right: 8rem; }
+.s4 { margin-right: 4rem; }
+.s6 { margin-right: 4rem; }
+.s8 { margin-right: 2rem; }
+.s10 { margin-right: 8rem; }
+
+a strong {
+  color: var(--skyblue);
+  text-decoration-color: var(--skyblue);
+}
+
+/* Underline only in strong */
+.school a:hover > strong{
+  background-color: var(--lightblue);
+  text-decoration: underline;
+}
+.school a:hover{
+  background-color: var(--lightblue);
 }

@@ -219,3 +219,75 @@ main .line {
 }
 
 /* *********** FOOTER *********** */
+footer {
+  color: var(--gray);
+  font-size: 1.4rem;
+  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* DESCRIPTION */
+.description {
+  width: 45vw;
+
+  padding: 2rem;
+
+  display: flex;
+}
+
+.description img {
+  width: 4rem;
+  height: 4rem;
+}
+
+.description p {
+  margin: 0 2rem;
+}
+
+/* DOWNLOAD APP */
+.dowload-app {
+  width: 35vw;
+
+  margin: 2rem;
+
+  display: flex;
+  justify-content: start;
+}
+
+/* App icon */
+.icon-app {
+  width: 4.5rem;
+  min-width: 4.5rem;
+  height: 4.5rem;
+  border-radius: 0.8rem;
+  overflow: hidden;
+  border: 0.1rem solid var(--lightblue);
+}
+.icon-app img { width: 100%; }
+
+/* Texto */
+.text {
+  width: auto;
+  padding: 0 2rem;
+}
+.text span {
+  font-weight: bold;
+}
+.text p {
+  margin: 1.5rem 0 1rem;
+}
+
+.stores {
+  width: 16rem;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+}
+.stores img { 
+  width: 100%; 
+  cursor: pointer;
+}
+.ps { margin-left: -1rem; }
+.as { margin: -1.6rem 0 0 -1.7rem; }

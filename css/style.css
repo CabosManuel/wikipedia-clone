@@ -24,6 +24,9 @@ body {
   color: var(--white);
 }
 
+/* ******************** */
+/* ******* MAIN ******* */
+/* ******************** */
 .title-subtitle {
   font-family: 'Crimson Text', serif;
 
@@ -317,7 +320,6 @@ footer {
 
 .other-school {
   width: 30%;
-  /* height: 7rem; */
   margin: 0 1rem 1rem;
   padding: 1rem;
 
@@ -364,6 +366,7 @@ footer .line {
   margin: 0 2rem;
 }
 
+/* ********** END FOOTER ********** */
 .end-footer {
   margin: 1.5rem 0;
   display: flex;

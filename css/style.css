@@ -213,3 +213,9 @@ button img {
 }
 .up { margin-top: -0.5rem; }
 .down { margin-top: 0.3rem; }
+
+main .line {
+  margin: 0 2rem;
+}
+
+/* *********** FOOTER *********** */
